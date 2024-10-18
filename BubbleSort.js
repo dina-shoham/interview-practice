@@ -8,11 +8,11 @@ var rl = readline.createInterface({
 });
 
 rl.question(">>Enter array, using spaces to separate values (e.g. 1 2 3): ", function(inputString) {
-   BubbleSort(inputString);
+   bubbleSort(inputString);
    rl.close();
 });
 
-function BubbleSort(inputString) {
+function bubbleSort(inputString) {
     arr = inputString.split(" ");
 
     let i, j, swap, swapped;
