@@ -1,0 +1,47 @@
+{
+    "folder": {
+      "name": "root",
+      "type": "directory",
+      "contents": [
+        {
+          "name": "folder1",
+          "type": "directory",
+          "contents": [
+            {
+              "name": "file1.txt",
+              "type": "file"
+            },
+            {
+              "name": "file2.txt",
+              "type": "file"
+            },
+            {
+              "name": "folder2",
+              "type": "directory",
+              "contents": [
+                {
+                  "name": "file3.txt",
+                  "type": "file"
+                },
+                {
+                  "name": "folder3",
+                  "type": "directory",
+                  "contents": [
+                    {
+                      "name": "file4.txt",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "file5.txt",
+          "type": "file"
+        }
+      ]
+    }
+  }
+  
